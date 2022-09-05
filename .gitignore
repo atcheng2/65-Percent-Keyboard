@@ -1,3 +1,5 @@
 65Percent-backups/
 *.kicad_prl
 fp-info-cache
+forquoteonly*
+*.zip
