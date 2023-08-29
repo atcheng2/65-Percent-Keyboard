@@ -21,5 +21,5 @@ that takes into account the settings found in
 4. Flash QMK with `make upload`
 
 The relevant hex file is `andyboard_default.hex`, which was compiled using a
-modified version of [QMK](../qmk_firmware).
+modified version of [QMK](https:github.com/atcheng2/qmk_firmware).
 
