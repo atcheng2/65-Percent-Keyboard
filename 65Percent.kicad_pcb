@@ -5,6 +5,12 @@
   )
 
   (paper "A3")
+  (title_block
+    (title "AndyBoard")
+    (date "2023-08-29")
+    (rev "1")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -79,11 +85,11 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "V1 Outputs/")
+      (outputdirectory "../")
     )
   )
 
