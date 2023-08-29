@@ -10,7 +10,8 @@
 The relevant hex file is `main.hex`, which was compiled using a modified version
 of
 [USBaspLoader-Atmega32](https://github.com/khairulhasanmd/USBaspLoader-Atmega32)
-that takes into account this board's D+, D-, and Jumper pins.
+that takes into account the settings found in
+[`bootloaderconfig.h`](bootloaderconfig.h).
 
 ## Flashing QMK
 
