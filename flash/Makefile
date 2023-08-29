@@ -13,4 +13,9 @@ fuse:
 
 .PHONY: flash
 flash:
-	sudo avrdude -c avrisp $(DEV) $(PORT) $(BAUD) -U flash:w:andyboard_default.hex:i
+	sudo avrdude -c avrisp $(DEV) $(PORT) $(BAUD) -U flash:w:main.hex:i
+
+.PHONY: upload
+upload:
+	sudo avrdude -c usbasp $(DEV) $(PORT) $(BAUD) -U flash:w:andyboard_default.hex
+
